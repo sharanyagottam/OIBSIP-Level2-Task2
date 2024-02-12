@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
+.container {
+  max-width: 90rem;
+  margin: 3rem;
+  padding: 0px 3rem;
+}
+
+.header {
+  padding: 3rem;
+  margin: 2rem 0px;
+  text-align: center;
+}
+
+.header > .title {
+  margin-bottom: 1rem;
+}
+
+.tribute {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 0px auto;
+  max-width: 75rem;
+  background: rgb(167, 165, 165);
+  color: black;
+  padding: 0px 0px 0px 1rem;
+  align-items: center;
+}
+
+.tribute blockquote {
+  text-align: center;
+  font-size: 2rem;
+  background: rgb(204, 204, 204);
+}
+.tribute img {
+  max-width: 100%;
+}
+
+.bio {
+  margin: 2rem auto;
+  max-width: 38rem;
+  padding: 0px 0.5rem;
+}
+
+.bio > h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.bio > p {
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.bio > hr {
+  margin-top: 2rem;
+}
